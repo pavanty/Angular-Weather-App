@@ -1,0 +1,29 @@
+<div class="images">
+  <button (click)="gotodisplaysearch()"><i class="fa fa-search"></i></button>
+  <div>
+    <div class="main-page">
+      <h1>{{ weatherjsondata.main.temp }}&#xb0; {{ weatherconditionimage }}</h1>
+      <h2>{{ weatherjsondata.weather[0].description | titlecase }}</h2>
+      <h2>In</h2>
+      <h2>{{ weatherjsondata.name }}</h2>
+      <div>
+        <span>
+          <table class="weatherdata">
+            <tr>
+              <th>{{ weatherjsondata.main.temp_min }}&#xb0;</th>
+              <th>{{ weatherjsondata.main.temp_max }}&#xb0;</th>
+              <th>{{ weatherjsondata.main.pressure }}</th>
+              <th>{{ weatherjsondata.main.humidity }}</th>
+            </tr>
+            <tr>
+              <td>Min Temp</td>
+              <td>Max Temp</td>
+              <td>Pressure</td>
+              <td>humidity</td>
+            </tr>
+          </table>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+<div class="images">
+  <h3>ForCast</h3>
+  <form>
+    <div class="weathersearch">
+      <input type="text" placeholder="Enter the city Name" [(ngModel)]="cityName" name="cityName">
+      <p>{{this.weathererrormessage}}</p>
+      <button (click)="onclickweather()" type="submit">Get Weather</button>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,61 @@
+.images {
+  background-image: url("../../assets/images/foggy.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  height: 100%;
+  opacity: 0.75;
+
+}
+
+p {
+  font-size: 300px;
+  padding: 0%;
+}
+
+.main-page {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.info {
+  position: fixed;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.weatherdata {
+  margin-top: 20px;
+}
+
+tr th,
+td {
+  margin: 30px;
+  padding-right: 30px;
+  font-weight: bold;
+}
+
+button {
+  position: fixed;
+  top: 0;
+  right: 0;
+  font-size: 40px;
+  background-color: transparent;
+  border: none;
+  padding: 30px;
+  z-index: 999;
+
+}
