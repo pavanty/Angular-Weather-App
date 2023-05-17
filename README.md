@@ -1,4 +1,4 @@
-# Code written in Angular
+## Code written in Angular
 
 ### Steps to run the application
 
