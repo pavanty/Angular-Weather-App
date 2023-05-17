@@ -1,12 +1,8 @@
-## Code written in Angular
-
-### Steps to run the application
-
+### Code Written In Angular
+#### Steps to run the application
 clone the github repository
 
-### Steps to run the code
-
-npm install
+#### Steps to run the code
+npm install --force
 
 ng serve -o
-
