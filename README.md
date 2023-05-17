@@ -1,10 +1,10 @@
 # Code written in Angular
 
-### steps to run the application
+### Steps to run the application
 
 clone the github repository
 
-### steps to run the code
+### Steps to run the code
 
 npm install
 
